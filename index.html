@@ -22,9 +22,9 @@
 
                 <h2>Primeiro, seu prato</h2>
 
-                <div data-identifier="dishes" class="conteudo__pratos__opçoes">
+                <div data-identifier="dishes" class="conteudo__pratos__opcoes">
 
-                    <article data-identifier="food-option">
+                    <article class="yakisoba" data-identifier="food-option" onclick="selecionarPrato('.yakisoba')">
                         <img src="arquivos/yakisoba.jpg" alt="yakisoba">
                         <h3 data-identifier="food-title">Yakisoba de frango</h3>
                         <p>yakisoba de frango com legumes</p>
@@ -32,7 +32,7 @@
                         <ion-icon name="checkmark-circle"></ion-icon>
                     </article>
 
-                    <article data-identifier="food-option">
+                    <article class="lasanha" data-identifier="food-option" onclick="selecionarPrato('.lasanha')">
                         <img src="arquivos/lasanha.jpg" alt="lasanha">
                         <h3 data-identifier="food-title">Lasanha</h3>
                         <p>lasanha à bolonhesa</p>
@@ -40,7 +40,7 @@
                         <ion-icon name="checkmark-circle"></ion-icon>
                     </article>
 
-                    <article data-identifier="food-option">
+                    <article class="strogonoff" data-identifier="food-option" onclick="selecionarPrato('.strogonoff')">
                         <img src="arquivos/strogonoff.jpg" alt="strogonoff">
                         <h3 data-identifier="food-title">Strogonoff</h3>
                         <p>acompanha arroz e batata palha</p>
@@ -53,24 +53,24 @@
 
             <section class="conteudo__bebidas">
 
-                <h2>Agora, sua bebida</h2>
+                <h2>Agora, sua Bebida</h2>
 
-                <div data-identifier="drinks" class="conteudo__bebidas__opçoes">
-                    <article data-identifier="food-option">
+                <div data-identifier="drinks" class="conteudo__bebidas__opcoes">
+                    <article class="coca-cola" data-identifier="food-option" onclick="selecionarBebida('.coca-cola')">
                         <img src="arquivos/coca-cola.jpg" alt="coca-cola">
                         <h3 data-identifier="food-title">Coca-cola</h3>
                         <p>Lata 250mL</p>
                         <p data-identifier="food-price">R$ 4,90</p>
                         <ion-icon name="checkmark-circle"></ion-icon>
                     </article>
-                    <article data-identifier="food-option">
+                    <article class="pepsi" data-identifier="food-option" onclick="selecionarBebida('.pepsi')">
                         <img src="arquivos/pepsi.jpg" alt="pepsi">
                         <h3 data-identifier="food-title">Pepsi</h3>
                         <p>Lata 350mL</p>
                         <p data-identifier="food-price">R$ 5,50</p>
                         <ion-icon name="checkmark-circle"></ion-icon>
                     </article>
-                    <article data-identifier="food-option">
+                    <article class="suco-melancia" data-identifier="food-option" onclick="selecionarBebida('.suco-melancia')">
                         <img src="arquivos/suco-melancia.jpg" alt="suco de melancia">
                         <h3 data-identifier="food-title">Suco de melancia</h3>
                         <p>Copo 300mL</p>
@@ -84,22 +84,22 @@
 
                 <h2>Por fim, sua sobremesa</h2>
 
-                <div data-identifier="desserts" class="conteudo__sobremesas__opçoes">
-                    <article data-identifier="food-option">
+                <div data-identifier="desserts" class="conteudo__sobremesas__opcoes">
+                    <article class="brownie" data-identifier="food-option" onclick="selecionarSobremesa('.brownie')">
                         <img src="arquivos/brownie.jpg" alt="brownie">
                         <h3 data-identifier="food-title">Brownie</h3>
                         <p>chocolate com nozes</p>
                         <p data-identifier="food-price">R$ 6,50</p>
                         <ion-icon name="checkmark-circle"></ion-icon>
                     </article>
-                    <article data-identifier="food-option">
+                    <article class="mousse" data-identifier="food-option" onclick="selecionarSobremesa('.mousse')">
                         <img src="arquivos/mousse-chocolate.jpg" alt="mousse de chocolate">
                         <h3 data-identifier="food-title">Mousse</h3>
                         <p>chocolate meio amargo</p>
                         <p data-identifier="food-price">R$ 7,90</p>
                         <ion-icon name="checkmark-circle"></ion-icon>
                     </article>
-                    <article data-identifier="food-option">
+                    <article class="torta" data-identifier="food-option" onclick="selecionarSobremesa('.torta')">
                         <img src="arquivos/torta.jpg" alt="torta de chocolate">
                         <h3 data-identifier="food-title">Torta de chocolate</h3>
                         <p>chocolate ao leite</p>
@@ -113,5 +113,6 @@
             <button>Selecione os 3 itens <br> para fechar o pedido</button>
         </footer>
         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>

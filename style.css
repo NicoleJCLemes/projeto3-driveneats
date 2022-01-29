@@ -106,7 +106,7 @@ article p:nth-child(4) {
 }
 
 /* ver se dá pra deixar os nomes iguais no final */
-.conteudo__pratos__opçoes, .conteudo__bebidas__opçoes, .conteudo__sobremesas__opçoes {
+.conteudo__pratos__opcoes, .conteudo__bebidas__opcoes, .conteudo__sobremesas__opcoes {
     display: flex;
     overflow-x: scroll;
     margin-top: 17px;
@@ -153,7 +153,7 @@ button {
     margin: 19px 3vw;
 }
 
-/* .conteudo--compra__icone {
+.conteudo--selecionar__icone {
     display: block;
     font-size: 16px;
     color: #32B72F;
@@ -163,6 +163,6 @@ button {
     right: 15.78px;
 }
 
-.conteudo--compra {
+.conteudo--selecionar {
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
-} */
+}
