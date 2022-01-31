@@ -123,10 +123,6 @@ article {
     position: relative;
 }
 
-article ion-icon {
-    display: none;
-}
-
 /* barra fixa de baixo */
 
 footer {
@@ -138,7 +134,7 @@ footer {
     z-index: 1;
 }
 
-button {
+.botao--desativar {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -153,7 +149,22 @@ button {
     margin: 19px 3vw;
 }
 
-.conteudo--selecionar__icone {
+.botao--ativar {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #32B72F;
+    height: 61px;
+    width: 94%;
+    border-radius: 50px;
+    border: none;
+    margin: 19px 3vw;
+}
+
+.icone {
     display: block;
     font-size: 16px;
     color: #32B72F;
@@ -163,6 +174,14 @@ button {
     right: 15.78px;
 }
 
+.icone--desabilitado {
+    display: none;
+}
+
 .conteudo--selecionar {
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+}
+
+.ativarLink {
+    pointer-events: none;
 }
